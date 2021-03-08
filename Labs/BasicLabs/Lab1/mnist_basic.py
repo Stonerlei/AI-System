@@ -36,6 +36,12 @@ import torch.nn.functional as F
 import torch.optim as optim
 from torchvision import datasets, transforms
 from torch.optim.lr_scheduler import StepLR
+from torch.utils.tensorboard import SummaryWriter
+import torchvision
+import torchvision.models as models
+
+# default `log_dir` is "runs" - we'll be more specific here
+writer = SummaryWriter('logs/experiment_1')
 
 
 class Net(nn.Module):
@@ -66,6 +72,10 @@ class Net(nn.Module):
 
 def train(args, model, device, train_loader, optimizer, epoch):
     model.train()
+
+    run_loss = 0.0
+    run_accuracy = 0.0
+
     for batch_idx, (data, target) in enumerate(train_loader):
         data, target = data.to(device), target.to(device)
         optimizer.zero_grad()
@@ -73,10 +83,22 @@ def train(args, model, device, train_loader, optimizer, epoch):
         loss = F.nll_loss(output, target)
         loss.backward()
         optimizer.step()
+
+        run_loss += loss.item()
+        pred = torch.argmax(output, dim=1)
+        run_accuracy += (pred == target).float().mean()
+
         if batch_idx % args.log_interval == 0:
             print('Train Epoch: {} [{}/{} ({:.0f}%)]\tLoss: {:.6f}'.format(
                 epoch, batch_idx * len(data), len(train_loader.dataset),
                 100. * batch_idx / len(train_loader), loss.item()))
+
+            if batch_idx != 0:
+                writer.add_scalar('Training Loss', run_loss / (args.batch_size*args.log_interval), (epoch-1)*len(train_loader)+batch_idx)
+                writer.add_scalar('Training Accuracy', 100.*run_accuracy/args.log_interval, (epoch-1)*len(train_loader)+batch_idx)
+                # writer.add_scalars('Training', {'Loss':10000*run_loss / (args.batch_size*args.log_interval), 'Accuracy':100.*run_accuracy/args.log_interval}, (epoch-1)*len(train_loader)+batch_idx)
+            run_loss = 0.0
+            run_accuracy = 0.0
 
 
 def test(model, device, test_loader):
@@ -105,14 +127,13 @@ def main():
                         help='input batch size for training (default: 64)')
     parser.add_argument('--test-batch-size', type=int, default=1000, metavar='N',
                         help='input batch size for testing (default: 1000)')
-    parser.add_argument('--epochs', type=int, default=14, metavar='N',
+    parser.add_argument('--epochs', type=int, default=2, metavar='N',
                         help='number of epochs to train (default: 14)')
     parser.add_argument('--lr', type=float, default=1.0, metavar='LR',
                         help='learning rate (default: 1.0)')
     parser.add_argument('--gamma', type=float, default=0.7, metavar='M',
                         help='Learning rate step gamma (default: 0.7)')
-    parser.add_argument('--no-cuda', action='store_true', default=False,
-                        help='disables CUDA training')
+    parser.add_argument('--no-cuda', action='store_true', default=True)
     parser.add_argument('--seed', type=int, default=1, metavar='S',
                         help='random seed (default: 1)')
     parser.add_argument('--log-interval', type=int, default=10, metavar='N',
@@ -142,17 +163,28 @@ def main():
                        ])),
         batch_size=args.test_batch_size, shuffle=True, **kwargs)
 
+    # get some random training images
+    dataiter = iter(train_loader)
+    images, labels = dataiter.next()
+    images = images.to(device)
+    labels = labels.to(device)
+
     model = Net().to(device)
     optimizer = optim.Adadelta(model.parameters(), lr=args.lr)
 
+    writer.add_graph(model, images)
+
     scheduler = StepLR(optimizer, step_size=1, gamma=args.gamma)
-    for epoch in range(1, args.epochs + 1):
-        train(args, model, device, train_loader, optimizer, epoch)
-        test(model, device, test_loader)
-        scheduler.step()
+    with torch.autograd.profiler.profile(use_cuda=False) as prof:
+        for epoch in range(1, args.epochs + 1):
+            train(args, model, device, train_loader, optimizer, epoch)
+            test(model, device, test_loader)
+            scheduler.step()
+    print(prof.key_averages().table(sort_by="cuda_time_total", row_limit=10))
 
     if args.save_model:
         torch.save(model.state_dict(), "mnist_cnn.pt")
+    writer.close()
 
 
 if __name__ == '__main__':

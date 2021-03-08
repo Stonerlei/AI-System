@@ -45,7 +45,7 @@ import numpy as np
 import torchvision.models as models
 from torch.utils.tensorboard import SummaryWriter
 # default `log_dir` is "logs" - we'll be more specific here
-writer = SummaryWriter('logs/mnist_experiment_1')
+writer = SummaryWriter('logss/mnist_experiment_1')
 
 class Net(nn.Module):
     def __init__(self):

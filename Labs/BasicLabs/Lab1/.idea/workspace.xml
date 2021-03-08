@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eaaaab66-dcd0-4c16-a133-be3ba0d65e9a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AdvancedLabs/Lab6/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../AdvancedLabs/Lab6/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AdvancedLabs/Lab6/config/job-config-0.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AdvancedLabs/Lab6/config/job-config-0.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AdvancedLabs/Lab6/config/job-config-1.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AdvancedLabs/Lab6/config/job-config-1.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AdvancedLabs/Lab6/config/job-config-2.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AdvancedLabs/Lab6/config/job-config-2.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AdvancedLabs/Lab6/config/job-config-3.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AdvancedLabs/Lab6/config/job-config-3.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AdvancedLabs/Lab6/config/job-config-4.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AdvancedLabs/Lab6/config/job-config-4.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AdvancedLabs/Lab6/config/job-config-5.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AdvancedLabs/Lab6/config/job-config-5.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AdvancedLabs/Lab6/config/job-config-6.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AdvancedLabs/Lab6/config/job-config-6.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AdvancedLabs/Lab6/config/job-config-7.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AdvancedLabs/Lab6/config/job-config-7.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AdvancedLabs/Lab7/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../AdvancedLabs/Lab7/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AdvancedLabs/Lab7/pytorch_mnist_horovod.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../AdvancedLabs/Lab7/pytorch_mnist_horovod.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AdvancedLabs/Lab8/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../AdvancedLabs/Lab8/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AdvancedLabs/Lab8/hpo-answer/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AdvancedLabs/Lab8/hpo-answer/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AdvancedLabs/Lab8/hpo-answer/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../AdvancedLabs/Lab8/hpo-answer/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AdvancedLabs/Lab8/hpo-answer/search_space.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../AdvancedLabs/Lab8/hpo-answer/search_space.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AdvancedLabs/Lab8/hpo-answer/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../AdvancedLabs/Lab8/hpo-answer/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AdvancedLabs/Lab8/hpo/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../AdvancedLabs/Lab8/hpo/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AdvancedLabs/Lab8/hpo/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../AdvancedLabs/Lab8/hpo/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AdvancedLabs/Lab8/nas/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../AdvancedLabs/Lab8/nas/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AdvancedLabs/Lab8/nas/ops.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../AdvancedLabs/Lab8/nas/ops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AdvancedLabs/Lab9/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../AdvancedLabs/Lab9/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AdvancedLabs/Lab9/config/pendulum-apex-ddpg-16.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AdvancedLabs/Lab9/config/pendulum-apex-ddpg-16.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AdvancedLabs/Lab9/config/pendulum-apex-ddpg-4.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AdvancedLabs/Lab9/config/pendulum-apex-ddpg-4.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AdvancedLabs/Lab9/config/pendulum-apex-ddpg-8.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AdvancedLabs/Lab9/config/pendulum-apex-ddpg-8.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AdvancedLabs/Lab9/config/pong-apex-16.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AdvancedLabs/Lab9/config/pong-apex-16.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AdvancedLabs/Lab9/config/pong-apex-4.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AdvancedLabs/Lab9/config/pong-apex-4.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AdvancedLabs/Lab9/config/pong-apex-8.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AdvancedLabs/Lab9/config/pong-apex-8.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lab1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lab1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnist_basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnist_basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnist_profiler.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnist_profiler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnist_tensorboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnist_tensorboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/mnist_custom_linear.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/mnist_custom_linear.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/mnist_custom_linear_cpp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/mnist_custom_linear_cpp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/mylinear_cpp_extension/mylinear.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/mylinear_cpp_extension/mylinear.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/mylinear_cpp_extension/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/mylinear_cpp_extension/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/mnist_custom_linear.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/mnist_custom_linear.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/mnist_custom_linear_cpp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/mnist_custom_linear_cpp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/mnist_custom_linear_cuda.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/mnist_custom_linear_cuda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/mylinear_cuda_extension/mylinear_cuda.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/mylinear_cuda_extension/mylinear_cuda.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/mylinear_cuda_extension/mylinear_cuda_kernel.cu" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/mylinear_cuda_extension/mylinear_cuda_kernel.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/mylinear_cuda_extension/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/mylinear_cuda_extension/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/bit8,bit16.git_diff" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/bit8,bit16.git_diff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/mnist_basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/mnist_basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/pytorch_mnist_compress.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/pytorch_mnist_compress.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/pytorch_mnist_horovod.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/pytorch_mnist_horovod.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5/Dockerfile.cpu" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/Dockerfile.cpu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5/Dockerfile.gpu" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/Dockerfile.gpu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5/Dockerfile.infer.cpu" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/Dockerfile.infer.cpu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5/Dockerfile.infer.gpu" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/Dockerfile.infer.gpu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5/Dockerfile.template" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/Dockerfile.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5/alpine.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/alpine.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5/dockerd-entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/dockerd-entrypoint.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5/extend.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/extend.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5/inference.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/inference.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5/pytorch_mnist_basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/pytorch_mnist_basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5/setup.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/setup.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5/train.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/train.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prerequisites.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prerequisites.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1pEjDDCy5J1LfJSNi6g9fVSJf8l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.mnist_basic">
+    <configuration name="mnist_basic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Lab1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mnist_basic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mnist_profiler" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Lab1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mnist_profiler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mnist_tensorboard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Lab1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mnist_tensorboard.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.mnist_basic" />
+        <item itemvalue="Python.mnist_profiler" />
+        <item itemvalue="Python.mnist_tensorboard" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eaaaab66-dcd0-4c16-a133-be3ba0d65e9a" name="Default Changelist" comment="" />
+      <created>1614755021788</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614755021788</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
